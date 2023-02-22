@@ -6,7 +6,28 @@
 * @n2: The second number to be computed
 * Return: Integer value
 */
-int add(int n1, int n2)
+void print_to_98(int n)
 {
-return (n1 + n2);
+if (n <= 98)
+{
+for (; n <= 98; n++)
+{
+printf("%d", n);
+if (n == 98)
+continue;
+printf(", ");
+}
+printf("\n");
+}
+else
+}
+for (; n >= 98; n--)
+{
+printf("%d", n);
+if (n ==   98)
+continue;
+printf(", ");
+}
+printf("\n");
+}
 }
