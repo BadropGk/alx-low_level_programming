@@ -9,13 +9,9 @@
  */
 int _isalpha(int c)
 {
-char lower, upper;
-for (lower = 'a'; lower <= 'z'; lower++)
-for (upper = 'A'; upper <= 'Z'; upper++)
+if ((c >= 65 && c <=90) || (c >=97 && c <= 122))
 {
-if (c == lower || c == upper)
-isletter = 1;
+return(1);
 }
-}
-return (isletter);
+return(0);
 }
