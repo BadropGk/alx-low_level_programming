@@ -8,9 +8,9 @@
 
 int _isupper(int g)
 {
-if (g >= 65 && g <= 90)
-{
-return (1);
-}
-return (0);
+	if (g >= 65 && g <= 90)
+	{
+	return (1);
+	}
+	return (0);
 }
